@@ -96,12 +96,14 @@ flex-grow: 0;
 } 
 
 
-.first-one{
+#intro{
 
+    /* Introduction */
     position: absolute;
     width: 270px;
     height: 40px;
-    left: 382px;
+    left: 50%;
+    /* left: 382px; */
     top: 87px;
     
     /* H04 Bold */
@@ -117,6 +119,11 @@ flex-grow: 0;
     color: #8B20BB;
     
 }
+
+p{
+
+}
+
 .column{
     
     box-sizing: border-box;
@@ -234,6 +241,7 @@ background: #E8D2F1;
     }
 
     .two{
+        /* Tutorial */
     
         position: absolute;
         width: 168px;
@@ -255,6 +263,14 @@ background: #E8D2F1;
         
         color: #8B20BB;
         
+        }
+
+        h2{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34.56px;
+            line-height: 52px;
         }
         
 
